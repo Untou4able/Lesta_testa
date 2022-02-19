@@ -46,10 +46,3 @@ def qsort(a, lo, hi):
     qsort(a, lo, border-1)
     qsort(a, border+1, hi)
 
-from random import randint
-a = [randint(0, 1000) for _ in range(100)]
-#a = [0,1,2,3,4,5,6,7,8,9]
-#a = [1,1,1,2,2,2,2]
-qsort(a, 0, len(a)-1)
-print a
-
